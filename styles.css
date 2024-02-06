@@ -1,0 +1,42 @@
+body {
+    font-family: Lovers, Lovers;
+    text-align: center;
+}
+p {
+    font-size: 30px; /* Adjust the font size as needed */
+}
+
+.container {
+    margin-top: 50px;
+}
+
+img {
+    width: 500px;
+    height: auto;
+}
+
+button {
+        padding: 10px 20px;
+        margin: 30px;
+        font-size: 30px;
+        cursor: pointer;
+        background-color: #af4c86; /* Green */
+        border: none;
+        color: white;
+        border-radius: 8px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        transition-duration: 0.4s;
+    }
+    
+    button:hover {
+        background-color: #ad4c85; /* pink */
+    }
+    
+body {
+    background-image: url('background_image.jpg'); /* Replace 'background_image.jpg' with your image file path */
+    background-size: cover; /* Ensures the background image covers the entire viewport */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+}
