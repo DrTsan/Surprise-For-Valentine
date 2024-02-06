@@ -16,10 +16,6 @@ noButton.addEventListener("mouseover", function() {
     noButton.style.top = yPos + "px";
 });
 
-// Add click event listener to the "No" button
-noButton.addEventListener("click", function() {
-    // Display an alert message
-    alert("Sorry to hear that!");
     // Disable the "No" button to prevent further clicks
     noButton.disabled = true;
 });
